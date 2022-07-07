@@ -1,0 +1,296 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    width: 100%;
+}
+.donate-moto h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(237, 237, 231);
+}
+
+.bg-banner {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(images/bg-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+    
+    overflow: hidden;
+   
+    
+  }
+.donate-moto p{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.donate-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(236, 6, 6), red);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5%;
+    
+}
+
+.anch-btn{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.donate-now{
+    margin-top: 50px;
+}
+.donate-today h1{
+    text-align: center;
+    font-size: 40px;
+}
+.donate-today p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+
+.flexible-content{
+    display: flex;
+    padding-left: 30%;
+}
+.donate-amount{
+    width: 10%;
+    height: 100px;
+    background-color: rgb(240, 237, 237);
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+#donate-amount2{
+    width: 10%;
+    height: 100px;
+    background-color: rgb(230, 174, 174);
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 3px solid rgb(240, 127, 107);
+    box-sizing: border-box;
+    
+}
+.amount-color{
+    color: rgb(234, 40, 40);
+    font-weight: bold;
+}
+#other-amount{
+    text-align: left;
+    margin-right: 50%;
+}
+.other-amount-input{
+    padding-left: 27%;
+    margin-top: 40px;
+    height: 100px;
+    
+}
+input {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #ccd1d25e;
+    font-size: 20px;
+    color: rgb(23, 14, 14);
+    padding-right: 40%;
+   }
+  .other-amount-donate-button{
+    margin: 45%;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(236, 6, 6), red);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5%;
+    position: relative;
+    margin-bottom: 150em;
+  }
+  .our-donation{
+    height: 500px;
+  }
+  .donate-plan-title{
+    margin-top: 100px;
+    text-align: center;
+    padding-right: 50px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+  }
+  .donate-plan-Para{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .flexible-container{
+    display: flex;
+  }
+
+  .donation-criteria-logo{
+    height: 60px;
+    width: 50px;
+    margin-top: 50px;
+
+    
+  }
+
+  #food-for-family{
+        width: 900px;
+        height: 300px;
+        padding-left: 10%;
+        border-radius: 5px;
+        background-color: beige;
+        box-sizing: border-box;
+        margin: 40px;
+  }
+  #shelter-for-family{
+    width: 900px;
+    height: 300px;
+    padding-left: 10%;
+    border-radius: 5px;
+    background-color: rgb(239, 239, 168);
+    box-sizing: border-box;
+    margin: 40px;
+  }
+
+  #education-for-family{
+    width: 900px;
+    height: 300px;
+    padding-left: 10%;
+    border-radius: 5px;
+    background-color: rgb(174, 205, 239);
+    box-sizing: border-box;
+    margin: 40px;
+  }
+ 
+  .donation-criteria h1{
+     margin: 0;
+  }
+  .bonus-section{
+    display: flex;
+    height: 500px;
+    margin-bottom: 100px;
+ }
+ .save-life{
+    width: 50%;
+    padding-left: 5%;
+ }
+
+.save-life img{
+    width: 80%;
+    height: 80%;
+    padding-top: 20%;
+  
+   
+}
+.save-life-container h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+}
+.text-color{
+    color: rgb(143, 250, 11);
+}
+.save-life-container p{
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin: 10%;
+    font-size: 20px;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(58, 48, 58), rgb(195, 14, 14));
+    padding: 10px 30px;
+    color: rgb(201, 191, 191);
+    font-weight: 700;
+    border-radius: 5%;
+}
+.save-life-container a{
+    margin-left: 70%;
+}
+.get-update{
+    height: 300px;
+    margin-top: 50px;
+}
+.get-update h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.get-update p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flexible-content1{
+    display: flex;
+    padding-left: 30%;
+}
+.donate-amount11{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(240, 237, 237);
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+#input-form {
+    width: 200px;
+    height: 38px;
+    padding-right: 20px;
+}
+
+.subscribe-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(236, 6, 6), red);
+    padding: 10px 20px;
+    color: white;
+    font-size:medium;
+    border-radius: 5%;
+    
+}
+.footer-option{
+    height: 50px;
+    background-color: black;
+}
+footer p{
+    color: rgb(248, 239, 239);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#humble-color{
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
